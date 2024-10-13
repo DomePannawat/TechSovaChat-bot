@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/public/TechSova.jpeg" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechSova</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      header {
+        position: fixed; 
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000; 
+      }
+
+      main {
+        padding-top: 60px;
+        overflow-x: hidden;
+      } 
+    </style>
+  </head>
+  <body class="w-full min-h-screen flex flex-col p-3 bg-gradient-to-b from-gray-900 via-gray-900 to-gray-900 text-gray-200">
+
+    <main class="w-full bg-gray-900 min-h-[calc(100vh-1rem)] flex flex-col">
+  
+      <!-- Header -->
+      <header class="p-2 bg-sage-mint flex gap-2 items-center justify-center shadow-lg transition-transform transform hover:scale-105 duration-300">
+        <img src="/public/LOGO-CHAT-BOT.jpeg" alt="LOGO-CHAT-BOT" class="w-10 h-10 rounded-lg animate-bounce">
+        <h1 class="text-night-fall text-base font-bold tracking-wider ">TechSova</h1>
+      </header>
+    
+      <!-- Chat Box -->
+      <div class="flex-1 overflow-y-auto overflow-x-auto p-2 bg-night-fall rounded-lg shadow-inner transition-colors duration-500 max-w-full max-h-screen">
+        <!-- Chat Area -->
+        <div class="p-2 flex flex-col gap-4" id="chat-container">
+        </div>
+      </div>
+
+      <!-- User Chat 
+      <div class="flex items-center gap-3 justify-start">
+        <img src="/public/User-logo.jpg" alt="user icon" class="w-10 h-10 rounded-full">
+        <p class="bg-sage-mint/40 text-white p-1 rounded-md shadow-md h-auto">${data}</p>
+      </div> -->
+
+        <!-- AI Chat 
+      <div class="flex items-center gap-3 justify-end">
+        <div class="bg-white text-black p-3 rounded-lg shadow-lg border border-cyan-500/60 shadow-cyan-500/60 transform transition-transform hover:scale-105 duration-300">${data}</div>
+        <img src="/public/LOGO-CHAT-BOT.jpeg" alt="AI icon" class="w-10 h-10 rounded-full">
+      </div> -->
+
+      <!-- Prompt -->
+      <form action="" method="post" class="p-4 space-y-4 " id="chat-form">
+        <textarea
+          name="prompt"
+          id="prompt"
+          rows="4"
+          class="w-full p-2   rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200 text-black text-center placeholder:text-center"
+          placeholder="Enter message here... // กรอกข้อความที่นี่"
+        ></textarea>
+      
+        <button type="submit" class="w-full p-2  bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-cyan-500 hover:to-blue-500 text-white rounded-lg shadow-md transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+          Send
+        </button>
+      </form>
+      
+
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
