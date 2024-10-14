@@ -8,9 +8,9 @@ Features :
 - AI-Driven Insights: Advanced AI technologies provide contextual responses, improving the relevance and flow of conversations.
 
 Current Status :
-    TechSova has successfully completed Phase 1, which focused on building core functionalities and ensuring a responsive and interactive user experience.
-We are currently in Phase 2, where we're enhancing the platform to ensure compatibility across a variety of devices.
-Stay tuned for Phase 3 and Phase 4, which will introduce even more exciting features and enhancements!
+- TechSova has successfully completed Phase 1, which focused on building core functionalities and ensuring a responsive and interactive user experience.
+- We are currently in Phase 2, where we're enhancing the platform to ensure compatibility across a variety of devices.
+- Stay tuned for Phase 3 and Phase 4, which will introduce even more exciting features and enhancements!
 
 Technologies Used :
 - Frontend: HTML, CSS (TailwindCSS), JavaScript
