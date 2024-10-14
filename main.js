@@ -47,7 +47,7 @@ export const userDiv = (data) => {
   return `
 <!-- User Chat -->
 <div class="flex items-center gap-3 justify-start">
-  <img src="/public/User-logo.jpg" alt="user icon" class="w-10 h-10 rounded-full">
+  <img src="/User-logo.jpg" alt="user icon" class="w-10 h-10 rounded-full">
   <p class="bg-sage-mint/40 text-white p-1 rounded-md shadow-md h-auto">${data}</p>
 </div>
   `;
@@ -59,7 +59,7 @@ export const aiDiv = (data) => {
   <!-- AI Chat -->
   <div class="flex items-center gap-3 justify-end">
     <div class="bg-white text-black p-3 rounded-lg shadow-lg border border-cyan-500/60 shadow-cyan-500/60 transform transition-transform hover:scale-105 duration-300">${data}</div>
-    <img src="/public/LOGO-CHAT-BOT.jpeg" alt="AI icon" class="w-10 h-10 rounded-full">
+    <img src="/LOGO-CHAT-BOT.jpeg" alt="AI icon" class="w-10 h-10 rounded-full">
   </div>
   `;
 }; 
